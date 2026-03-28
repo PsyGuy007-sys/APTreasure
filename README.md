@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="APTreasure Logo" width="300">
+</p>
+
 <h1 align="center">APTreasure</h1>
 
 <p align="center">
