@@ -1,0 +1,30 @@
+name: APTreasure
+version: ${project.version}
+main: fr.crarax.aptreasure.APTreasure
+api-version: '1.21'
+description: Dropped items come alive and run away from players
+author: Crarax
+softdepend: ["PlaceholderAPI"]
+
+commands:
+  aptreasure:
+    description: APTreasure plugin commands
+    usage: /aptreasure <reload|toggle|stats>
+    permission: aptreasure.use
+
+permissions:
+  aptreasure.use:
+    description: Allows using APTreasure commands
+    default: true
+  aptreasure.reload:
+    description: Allows reloading the configuration
+    default: op
+  aptreasure.toggle:
+    description: Allows toggling treasure items for yourself
+    default: true
+  aptreasure.stats:
+    description: Allows viewing personal treasure stats
+    default: true
+  aptreasure.immune:
+    description: Items dropped by this player never come alive
+    default: false

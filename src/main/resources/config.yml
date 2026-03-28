@@ -1,0 +1,39 @@
+# APTreasure - Configuration
+
+# Chance (in %) for a dropped item to come alive (1-30)
+chance: 10
+
+# Duration in seconds before a treasure item becomes normal again
+duration: 15
+
+# Animation tick interval (in ticks, 20 ticks = 1 second)
+tick-interval: 5
+
+# Bonus multiplier when catching a treasure (stack size * multiplier)
+bonus-multiplier: 2
+
+# Maximum alive treasures at once (server-wide, prevents lag)
+max-active: 20
+
+# Flee detection radius (in blocks)
+flee-radius: 5
+
+# Items that should never become treasures (material names)
+blacklist:
+  - COBBLESTONE
+  - DIRT
+  - GRAVEL
+  - SAND
+  - NETHERRACK
+  - COBBLED_DEEPSLATE
+
+# Sound effects
+sounds:
+  enabled: true
+  volume: 0.8
+  pitch: 1.0
+
+# Particles
+particles:
+  enabled: true
+  count: 5

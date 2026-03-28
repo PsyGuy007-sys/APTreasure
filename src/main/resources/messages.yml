@@ -1,0 +1,29 @@
+# APTreasure - Messages
+# Supports & color codes and PlaceholderAPI placeholders
+
+prefix: "&8[&6APTreasure&8] &r"
+
+catch:
+  success: "&a&lNice catch! &eYou captured a runaway treasure! &6+{amount} bonus items!"
+
+spawn:
+  alert: "&eAn item just came alive nearby... catch it!"
+
+reload:
+  success: "&aConfiguration reloaded successfully!"
+  no-permission: "&cYou don't have permission to do this."
+
+toggle:
+  enabled: "&aTreasure items enabled!"
+  disabled: "&cTreasure items disabled."
+  no-permission: "&cYou don't have permission to do this."
+
+stats:
+  header: "&6&l--- Your Treasure Stats ---"
+  total-caught: "&eTotal treasures caught: &a{count}"
+  no-permission: "&cYou don't have permission to do this."
+
+command:
+  usage: "&eUsage: /aptreasure <reload|toggle|stats>"
+  unknown: "&cUnknown subcommand."
+  player-only: "&cThis command can only be used by players."
